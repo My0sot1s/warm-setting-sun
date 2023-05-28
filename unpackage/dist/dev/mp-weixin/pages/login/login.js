@@ -16,13 +16,28 @@ if (!Math) {
 const _sfc_main = {
   __name: "login",
   setup(__props) {
-    common_vendor.ref("");
+    const userName = common_vendor.ref("");
+    const password = common_vendor.ref("");
     common_vendor.ref(true);
     common_vendor.ref(false);
     const useless = common_vendor.ref("");
     const protocol = common_vendor.ref([
       { text: "阅读并同意暖夕阳的《服务协议》和《个人信息保护指引》", value: 0 }
     ]);
+    function login() {
+      if (userName.value === "admin") {
+        common_vendor.index.navigateTo({
+          url: "/pages/platform/audit/audit"
+        });
+      } else {
+        common_vendor.index.navigateTo({
+          url: "/pages/user/choose-service/choose-service"
+        });
+      }
+    }
+    function back() {
+      common_vendor.index.navigateBack();
+    }
     function toRegister() {
       common_vendor.index.navigateTo({
         url: "/pages/register/register"
@@ -30,30 +45,31 @@ const _sfc_main = {
     }
     return (_ctx, _cache) => {
       return {
-        a: common_vendor.o(toRegister),
-        b: common_vendor.p({
+        a: common_vendor.o(back),
+        b: common_vendor.o(toRegister),
+        c: common_vendor.p({
           border: false,
           ["left-icon"]: "left",
           ["right-text"]: "注册"
         }),
-        c: common_vendor.o(_ctx.input),
-        d: common_vendor.o(($event) => _ctx.value = $event),
+        d: common_vendor.o(($event) => userName.value = $event),
         e: common_vendor.p({
           focus: true,
           placeholder: "手机号/用户名",
-          modelValue: _ctx.value
+          modelValue: userName.value
         }),
-        f: common_vendor.o(($event) => _ctx.password = $event),
+        f: common_vendor.o(($event) => password.value = $event),
         g: common_vendor.p({
           type: "password",
           placeholder: "请输入密码",
-          modelValue: _ctx.password
+          modelValue: password.value
         }),
         h: common_vendor.p({
           text: "登录"
         }),
-        i: common_vendor.o(($event) => useless.value = $event),
-        j: common_vendor.p({
+        i: common_vendor.o(login),
+        j: common_vendor.o(($event) => useless.value = $event),
+        k: common_vendor.p({
           localdata: protocol.value,
           modelValue: useless.value
         })

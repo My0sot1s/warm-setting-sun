@@ -4,6 +4,7 @@
 			:border="false"
 			left-icon="left"
 			right-text="注册"
+			@clickLeft="back"
 			@clickRight="toRegister"
 		/>
 	</view>
@@ -13,10 +14,9 @@
 			<view class="input-group">
 				<text>账号：</text>
 				<uni-easyinput
-					v-model="value"
+					v-model="userName"
 					focus
 					placeholder="手机号/用户名"
-					@input="input"
 				></uni-easyinput>
 			</view>
 			<view class="input-group">
@@ -28,12 +28,7 @@
 				></uni-easyinput>
 			</view>
 			<text>忘记密码</text>
-			<navigator
-				url="/pages/choose-service/choose-service"
-				hover-class="navigator-hover"
-			>
-				<SunButton text="登录"></SunButton>
-			</navigator>
+			<view @click="login"><SunButton text="登录"></SunButton></view>
 		</view>
 		<view class="footer">
 			<text>其他登录方式</text>
@@ -49,6 +44,8 @@
 <script setup>
 import { ref } from 'vue'
 const userName = ref('')
+const password = ref('')
+
 const showPassword = ref(true)
 const showClearIcon = ref(false)
 const useless = ref('')
@@ -68,6 +65,21 @@ function clearInput(event) {
 	} else {
 		showClearIcon.value = false
 	}
+}
+function login() {
+	if (userName.value === 'admin') {
+		uni.navigateTo({
+			url: '/pages/platform/audit/audit'
+		})
+	} else {
+		uni.navigateTo({
+			url: '/pages/user/choose-service/choose-service'
+		})
+	}
+}
+
+function back() {
+	uni.navigateBack()
 }
 function toRegister() {
 	uni.navigateTo({

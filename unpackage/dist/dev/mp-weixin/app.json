@@ -3,9 +3,11 @@
     "pages/index/index",
     "pages/login/login",
     "pages/register/register",
-    "pages/choose-service/choose-service",
-    "pages/my/my",
-    "pages/information/information"
+    "pages/user/choose-service/choose-service",
+    "pages/user/my/my",
+    "pages/user/information/information",
+    "pages/platform/audit/audit",
+    "pages/platform/settings/settings"
   ],
   "window": {
     "navigationBarTextStyle": "black",

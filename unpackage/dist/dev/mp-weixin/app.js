@@ -5,9 +5,11 @@ if (!Math) {
   "./pages/index/index.js";
   "./pages/login/login.js";
   "./pages/register/register.js";
-  "./pages/choose-service/choose-service.js";
-  "./pages/my/my.js";
-  "./pages/information/information.js";
+  "./pages/user/choose-service/choose-service.js";
+  "./pages/user/my/my.js";
+  "./pages/user/information/information.js";
+  "./pages/platform/audit/audit.js";
+  "./pages/platform/settings/settings.js";
 }
 const _sfc_main = {
   onLaunch: function() {

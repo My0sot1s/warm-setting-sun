@@ -1,0 +1,39 @@
+.cell {
+  box-sizing: border-box;
+  width: 90vw;
+  height: 20vw;
+  background-color: white;
+  border-radius: 4vw;
+  margin-bottom: 6vw;
+  display: flex;
+  align-items: center;
+  padding: 0 5vw;
+}
+.cell image {
+  width: 15vw;
+  height: 15vw;
+  margin-right: 4vw;
+}
+.cell .detail {
+  display: flex;
+  flex-direction: column;
+}
+.cell .detail .time-cell {
+  margin-top: 2vw;
+  font-size: 4vw;
+}
+.cell .detail .time-cell uni-icons {
+  margin-right: 1vw;
+}
+.cell .buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: auto;
+  width: 22vw;
+}
+.cell .buttons view {
+  height: 4vw;
+  margin: 1vw 0;
+  border-radius: 10vw;
+}

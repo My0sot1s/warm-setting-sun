@@ -14,7 +14,7 @@
   width: 33vw;
   z-index: 1;
 }
-.navigation .list navigator {
+.navigation .list .navigator {
   position: relative;
   display: flex;
   justify-content: center;
@@ -24,19 +24,19 @@
   text-align: center;
   font-weight: 500;
 }
-.navigation .list navigator uni-icons {
+.navigation .list .navigator .uni-icons {
   position: relative;
   display: block;
   transition: 0.5s;
 }
-.navigation .list navigator text {
+.navigation .list .navigator .text {
   font-weight: 400;
   transition: 0.5s;
 }
-.navigation .active navigator uni-icons {
+.navigation .active .navigator .uni-icons {
   transform: translateY(-5vw);
 }
-.navigation .active navigator text {
+.navigation .active .navigator .text {
   transform: translateY(-1vw);
 }
 .navigation .indicator {
@@ -46,5 +46,5 @@
   height: 14vw;
   background-color: orange;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px #ffaa00, inset 10px 10px 11px rgba(250, 252, 255, 0.48), inset -10px -10px 15px rgba(46, 129, 255, 0.22);
+  box-shadow: 0px 0px 0px #ffaa00, inset 10px 10px 11px rgba(250, 252, 255, 0.48), inset -10px -10px 15px rgba(255, 191, 0, 0.2);
 }

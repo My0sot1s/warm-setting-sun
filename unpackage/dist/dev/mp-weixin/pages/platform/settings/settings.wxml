@@ -1,0 +1,1 @@
+<view><view class="box-bg"><uni-nav-bar wx:if="{{a}}" u-i="18d80062-0" bind:__l="__l" u-p="{{a}}"/></view><view class="main"><view wx:for="{{b}}" wx:for-item="item" class="setting-cell" bindtap="{{item.b}}"><text>{{item.a}}</text></view></view><tab-bar wx:if="{{c}}" u-i="18d80062-1" bind:__l="__l" u-p="{{c}}"/></view>

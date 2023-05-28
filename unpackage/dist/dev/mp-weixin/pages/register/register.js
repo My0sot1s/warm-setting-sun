@@ -23,38 +23,42 @@ const _sfc_main = {
     const protocol = common_vendor.ref([
       { text: "阅读并同意暖夕阳的《服务协议》和《个人信息保护指引》", value: 0 }
     ]);
+    function back() {
+      common_vendor.index.navigateBack();
+    }
     return (_ctx, _cache) => {
       return {
-        a: common_vendor.p({
+        a: common_vendor.o(back),
+        b: common_vendor.p({
           border: false,
           ["left-icon"]: "left"
         }),
-        b: common_vendor.o(_ctx.input),
-        c: common_vendor.o(($event) => _ctx.value = $event),
-        d: common_vendor.p({
+        c: common_vendor.o(_ctx.input),
+        d: common_vendor.o(($event) => _ctx.value = $event),
+        e: common_vendor.p({
           focus: true,
           placeholder: "请输入手机号",
           modelValue: _ctx.value
         }),
-        e: common_vendor.o(_ctx.input),
-        f: common_vendor.o(($event) => _ctx.value = $event),
-        g: common_vendor.p({
+        f: common_vendor.o(_ctx.input),
+        g: common_vendor.o(($event) => _ctx.value = $event),
+        h: common_vendor.p({
           focus: true,
           placeholder: "请输入验证码",
           ["suffix-icon"]: "paperplane",
           modelValue: _ctx.value
         }),
-        h: common_vendor.o(($event) => _ctx.password = $event),
-        i: common_vendor.p({
+        i: common_vendor.o(($event) => _ctx.password = $event),
+        j: common_vendor.p({
           type: "password",
           placeholder: "请输入密码(最少8位,字母+数字)",
           modelValue: _ctx.password
         }),
-        j: common_vendor.p({
+        k: common_vendor.p({
           text: "注册"
         }),
-        k: common_vendor.o(($event) => useless.value = $event),
-        l: common_vendor.p({
+        l: common_vendor.o(($event) => useless.value = $event),
+        m: common_vendor.p({
           localdata: protocol.value,
           modelValue: useless.value
         })

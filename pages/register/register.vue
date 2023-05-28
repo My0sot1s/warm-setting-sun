@@ -1,6 +1,6 @@
 <template>
 	<view class="box-bg">
-		<uni-nav-bar :border="false" left-icon="left" />
+		<uni-nav-bar :border="false" left-icon="left" @clickLeft="back" />
 	</view>
 	<view class="container">
 		<view class="panel">
@@ -59,6 +59,10 @@ const protocol = ref([
 	color: '#2979FF',
 	borderColor: '#000'
 } */
+
+function back() {
+	uni.navigateBack()
+}
 
 function clearInput(event) {
 	userName.value = event.detail.value

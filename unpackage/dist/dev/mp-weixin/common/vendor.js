@@ -7080,21 +7080,35 @@ const pages = [
     }
   },
   {
-    path: "pages/choose-service/choose-service",
+    path: "pages/user/choose-service/choose-service",
     style: {
       navigationBarTitleText: "",
       enablePullDownRefresh: false
     }
   },
   {
-    path: "pages/my/my",
+    path: "pages/user/my/my",
     style: {
       navigationBarTitleText: "",
       enablePullDownRefresh: false
     }
   },
   {
-    path: "pages/information/information",
+    path: "pages/user/information/information",
+    style: {
+      navigationBarTitleText: "",
+      enablePullDownRefresh: false
+    }
+  },
+  {
+    path: "pages/platform/audit/audit",
+    style: {
+      navigationBarTitleText: "",
+      enablePullDownRefresh: false
+    }
+  },
+  {
+    path: "pages/platform/settings/settings",
     style: {
       navigationBarTitleText: "",
       enablePullDownRefresh: false
@@ -7115,7 +7129,7 @@ const condition = {
   list: [
     {
       name: "login",
-      path: "pages/choose-service/choose-service"
+      path: "pages/platform/audit/audit"
     }
   ]
 };
@@ -9636,6 +9650,7 @@ let Ns = new class {
 var Ds = Ns;
 exports.Ds = Ds;
 exports._export_sfc = _export_sfc;
+exports.computed = computed;
 exports.createSSRApp = createSSRApp;
 exports.e = e;
 exports.f = f$1;
@@ -9648,4 +9663,5 @@ exports.ref = ref;
 exports.resolveComponent = resolveComponent;
 exports.s = s$1;
 exports.t = t$1;
+exports.unref = unref;
 exports.wx$1 = wx$1;

@@ -18,21 +18,35 @@
 			"enablePullDownRefresh": false
 		}
 	}, {
-		"path": "pages/choose-service/choose-service",
+		"path": "pages/user/choose-service/choose-service",
 		"style": {
 			"navigationBarTitleText": "",
 			"enablePullDownRefresh": false
 		}
 
 	}, {
-		"path": "pages/my/my",
+		"path": "pages/user/my/my",
 		"style": {
 			"navigationBarTitleText": "",
 			"enablePullDownRefresh": false
 		}
 
 	}, {
-		"path": "pages/information/information",
+		"path": "pages/user/information/information",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/platform/audit/audit",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/platform/settings/settings",
 		"style": {
 			"navigationBarTitleText": "",
 			"enablePullDownRefresh": false
@@ -52,7 +66,7 @@
 		"current": 0,
 		"list": [{
 			"name": "login",
-			"path": "pages/choose-service/choose-service"
+			"path": "pages/platform/audit/audit"
 		}]
 	}
 }

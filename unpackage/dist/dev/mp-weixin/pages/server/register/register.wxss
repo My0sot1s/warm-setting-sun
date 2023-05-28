@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10vw;
+}
+.main .buttons {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 25vw;
+}
+.main .buttons view {
+  width: 30vw;
+  border-radius: 5vw;
+}
+.main .buttons .inactive view {
+  background-color: white;
+  color: black;
+  box-shadow: none;
+  border: 1px solid black;
+}
+.main .user-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 13vw;
+  display: flex;
+  align-items: center;
+  padding: 1vw 1vw;
+  margin: 2vw 0;
+}
+.main .user-input text {
+  margin-right: 4vw;
+}
+.main .user-input uni-easyinput {
+  box-sizing: border-box;
+}
+.main .user-sex {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  padding: 1vw 1vw;
+  margin: 2vw 0;
+}
+.main .user-sex text {
+  margin-right: auto;
+}
+.main .uni-file-picker {
+  padding-left: 1vw;
+}
+.main .promise {
+  width: 100%;
+  padding: 5vw 0;
+  transform: translateX(-2vw);
+}
+.main .btn {
+  width: 90vw;
+  padding: 3vw 0 10vw 0;
+}

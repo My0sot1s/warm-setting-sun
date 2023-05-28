@@ -29,6 +29,10 @@ const _sfc_main = {
         common_vendor.index.navigateTo({
           url: "/pages/platform/audit/audit"
         });
+      } else if (userName.value === "server") {
+        common_vendor.index.navigateTo({
+          url: "/pages/server/serve/serve"
+        });
       } else {
         common_vendor.index.navigateTo({
           url: "/pages/user/choose-service/choose-service"

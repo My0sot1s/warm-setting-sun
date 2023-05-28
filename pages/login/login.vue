@@ -71,6 +71,10 @@ function login() {
 		uni.navigateTo({
 			url: '/pages/platform/audit/audit'
 		})
+	} else if (userName.value === 'server') {
+		uni.navigateTo({
+			url: '/pages/server/serve/serve'
+		})
 	} else {
 		uni.navigateTo({
 			url: '/pages/user/choose-service/choose-service'

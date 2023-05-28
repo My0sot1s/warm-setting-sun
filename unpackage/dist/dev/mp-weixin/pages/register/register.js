@@ -26,39 +26,46 @@ const _sfc_main = {
     function back() {
       common_vendor.index.navigateBack();
     }
+    function toServerRegister() {
+      common_vendor.index.navigateTo({
+        url: "/pages/server/register/register"
+      });
+    }
     return (_ctx, _cache) => {
       return {
         a: common_vendor.o(back),
-        b: common_vendor.p({
+        b: common_vendor.o(toServerRegister),
+        c: common_vendor.p({
           border: false,
-          ["left-icon"]: "left"
+          ["left-icon"]: "left",
+          ["right-text"]: "服务人员"
         }),
-        c: common_vendor.o(_ctx.input),
-        d: common_vendor.o(($event) => _ctx.value = $event),
-        e: common_vendor.p({
+        d: common_vendor.o(_ctx.input),
+        e: common_vendor.o(($event) => _ctx.value = $event),
+        f: common_vendor.p({
           focus: true,
           placeholder: "请输入手机号",
           modelValue: _ctx.value
         }),
-        f: common_vendor.o(_ctx.input),
-        g: common_vendor.o(($event) => _ctx.value = $event),
-        h: common_vendor.p({
+        g: common_vendor.o(_ctx.input),
+        h: common_vendor.o(($event) => _ctx.value = $event),
+        i: common_vendor.p({
           focus: true,
           placeholder: "请输入验证码",
           ["suffix-icon"]: "paperplane",
           modelValue: _ctx.value
         }),
-        i: common_vendor.o(($event) => _ctx.password = $event),
-        j: common_vendor.p({
+        j: common_vendor.o(($event) => _ctx.password = $event),
+        k: common_vendor.p({
           type: "password",
           placeholder: "请输入密码(最少8位,字母+数字)",
           modelValue: _ctx.password
         }),
-        k: common_vendor.p({
+        l: common_vendor.p({
           text: "注册"
         }),
-        l: common_vendor.o(($event) => useless.value = $event),
-        m: common_vendor.p({
+        m: common_vendor.o(($event) => useless.value = $event),
+        n: common_vendor.p({
           localdata: protocol.value,
           modelValue: useless.value
         })

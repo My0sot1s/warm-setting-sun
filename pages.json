@@ -51,6 +51,19 @@
 			"navigationBarTitleText": "",
 			"enablePullDownRefresh": false
 		}
+	}, {
+		"path": "pages/server/register/register",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/server/serve/serve",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
 
 	}],
 	"globalStyle": {
@@ -66,7 +79,7 @@
 		"current": 0,
 		"list": [{
 			"name": "login",
-			"path": "pages/platform/audit/audit"
+			"path": "pages/server/serve/serve"
 		}]
 	}
 }

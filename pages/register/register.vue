@@ -1,6 +1,12 @@
 <template>
 	<view class="box-bg">
-		<uni-nav-bar :border="false" left-icon="left" @clickLeft="back" />
+		<uni-nav-bar
+			:border="false"
+			left-icon="left"
+			right-text="服务人员"
+			@clickLeft="back"
+			@clickRight="toServerRegister"
+		/>
 	</view>
 	<view class="container">
 		<view class="panel">
@@ -62,6 +68,12 @@ const protocol = ref([
 
 function back() {
 	uni.navigateBack()
+}
+
+function toServerRegister() {
+	uni.navigateTo({
+		url: '/pages/server/register/register'
+	})
 }
 
 function clearInput(event) {

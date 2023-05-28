@@ -25,8 +25,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/platform/audit/audit",
-          "pathName": "pages/platform/audit/audit",
+          "name": "pages/server/serve/serve",
+          "pathName": "pages/server/serve/serve",
           "query": ""
         }
       ]

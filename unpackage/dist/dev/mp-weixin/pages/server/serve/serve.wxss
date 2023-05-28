@@ -1,0 +1,22 @@
+.main {
+  padding-bottom: 30vw;
+}
+.title {
+  font-size: 6vw;
+  font-weight: lighter;
+  padding: 8vw 0 5vw 0;
+  text-align: center;
+}
+.buttons {
+  height: 110vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.buttons .sun-button {
+  font-size: 6vw;
+  width: 70vw;
+  height: 15vw;
+  border-radius: 5vw;
+}

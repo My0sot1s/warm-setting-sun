@@ -7,7 +7,9 @@
     "pages/user/my/my",
     "pages/user/information/information",
     "pages/platform/audit/audit",
-    "pages/platform/settings/settings"
+    "pages/platform/settings/settings",
+    "pages/server/register/register",
+    "pages/server/serve/serve"
   ],
   "window": {
     "navigationBarTextStyle": "black",

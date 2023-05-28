@@ -1,0 +1,1 @@
+<view><view class="box-bg"><uni-nav-bar wx:if="{{a}}" u-i="700477d0-0" bind:__l="__l" u-p="{{a}}"/></view><view class="applyList"><audit-cell wx:for="{{b}}" wx:for-item="cell" u-i="{{cell.a}}" bind:__l="__l" u-p="{{cell.b}}"></audit-cell></view><tab-bar wx:if="{{c}}" u-i="700477d0-2" bind:__l="__l" u-p="{{c}}"/></view>

@@ -9,7 +9,10 @@
     "pages/platform/audit/audit",
     "pages/platform/settings/settings",
     "pages/server/register/register",
-    "pages/server/serve/serve"
+    "pages/server/serve/serve",
+    "pages/server/my/my",
+    "pages/operator/deliver/deliver",
+    "pages/operator/audit/audit"
   ],
   "window": {
     "navigationBarTextStyle": "black",

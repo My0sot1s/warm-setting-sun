@@ -12,6 +12,9 @@ if (!Math) {
   "./pages/platform/settings/settings.js";
   "./pages/server/register/register.js";
   "./pages/server/serve/serve.js";
+  "./pages/server/my/my.js";
+  "./pages/operator/deliver/deliver.js";
+  "./pages/operator/audit/audit.js";
 }
 const _sfc_main = {
   onLaunch: function() {

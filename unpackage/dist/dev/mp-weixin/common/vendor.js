@@ -7067,7 +7067,7 @@ const pages = [
   {
     path: "pages/index/index",
     style: {
-      navigationBarTitleText: "uni-app"
+      navigationBarTitleText: "暖夕阳"
     }
   },
   {
@@ -7132,6 +7132,27 @@ const pages = [
       navigationBarTitleText: "",
       enablePullDownRefresh: false
     }
+  },
+  {
+    path: "pages/server/my/my",
+    style: {
+      navigationBarTitleText: "",
+      enablePullDownRefresh: false
+    }
+  },
+  {
+    path: "pages/operator/deliver/deliver",
+    style: {
+      navigationBarTitleText: "",
+      enablePullDownRefresh: false
+    }
+  },
+  {
+    path: "pages/operator/audit/audit",
+    style: {
+      navigationBarTitleText: "",
+      enablePullDownRefresh: false
+    }
   }
 ];
 const globalStyle = {
@@ -7148,7 +7169,7 @@ const condition = {
   list: [
     {
       name: "login",
-      path: "pages/server/serve/serve"
+      path: "pages/index/index"
     }
   ]
 };

@@ -1,0 +1,1 @@
+<view class="cell"><image src="{{a}}" mode=""></image><view class="detail"><text>{{b}}</text><text class="ability">{{c}}</text></view><view class="buttons"><view class="buttons"><sun-button wx:if="{{d}}" u-i="a9924996-0" bind:__l="__l" u-p="{{d}}"></sun-button><sun-button wx:if="{{e}}" u-i="a9924996-1" bind:__l="__l" u-p="{{e}}"></sun-button></view></view></view>

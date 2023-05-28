@@ -36,7 +36,11 @@
 				></uni-easyinput>
 			</view>
 			<text></text>
-			<navigator url="/pages/login/login" hover-class="navigator-hover">
+			<navigator
+				url="/pages/login/login"
+				@click="open"
+				hover-class="navigator-hover"
+			>
 				<SunButton text="注册"></SunButton>
 			</navigator>
 		</view>

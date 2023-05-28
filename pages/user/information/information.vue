@@ -86,7 +86,9 @@
 				></uni-easyinput>
 			</view>
 		</view>
-		<navigator url="/pages/user/my/my"><SunButton text="保存" /></navigator>
+		<navigator url="/pages/user/my/my" open-type="reLaunch"
+			><SunButton text="保存"
+		/></navigator>
 	</view>
 </template>
 

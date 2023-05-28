@@ -5,9 +5,7 @@
 			<image src="../../static/avatar.png" mode="" class="avatar"></image>
 			<view class="info">
 				<text class="name">王建华</text>
-				<navigator url="/pages/user/information/information"
-					><text class="edit">编辑个人资料 ></text></navigator
-				>
+				<navigator url=""><text class="edit">编辑个人资料 ></text></navigator>
 			</view>
 			<image src="../../static/qr.png" mode="" class="qr"></image>
 		</view>

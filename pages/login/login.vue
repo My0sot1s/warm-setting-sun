@@ -66,14 +66,16 @@ function clearInput(event) {
 		showClearIcon.value = false
 	}
 }
+
+const routeMap = {
+	admin: '/pages/platform/audit/audit',
+	server: '/pages/server/serve/serve',
+	operator: '/pages/operator/deliver/deliver'
+}
 function login() {
-	if (userName.value === 'admin') {
+	if (routeMap[userName.value]) {
 		uni.navigateTo({
-			url: '/pages/platform/audit/audit'
-		})
-	} else if (userName.value === 'server') {
-		uni.navigateTo({
-			url: '/pages/server/serve/serve'
+			url: routeMap[userName.value]
 		})
 	} else {
 		uni.navigateTo({

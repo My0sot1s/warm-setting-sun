@@ -64,8 +64,9 @@ const _sfc_main = {
         l: common_vendor.p({
           text: "注册"
         }),
-        m: common_vendor.o(($event) => useless.value = $event),
-        n: common_vendor.p({
+        m: common_vendor.o((...args) => _ctx.open && _ctx.open(...args)),
+        n: common_vendor.o(($event) => useless.value = $event),
+        o: common_vendor.p({
           localdata: protocol.value,
           modelValue: useless.value
         })

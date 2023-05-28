@@ -48,10 +48,17 @@
 		</view>
 		<view class="logout">
 			<image src="../../static/power.png" mode=""></image>
-			<navigator url="/pages/index/index"><text>退出登录</text></navigator>
+			<navigator url="/pages/index/index" open-type="reLaunch"
+				><text>退出登录</text></navigator
+			>
 		</view>
 	</view>
-	<TabBar />
+	<TabBar
+		centerText="服务"
+		rightText="我的"
+		centerUrl="/pages/user/choose-service/choose-service"
+		rightUrl="/pages/user/my/my"
+	/>
 </template>
 
 <script></script>

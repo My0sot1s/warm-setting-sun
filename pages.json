@@ -2,7 +2,7 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "uni-app"
+			"navigationBarTitleText": "暖夕阳"
 		}
 	}, {
 		"path": "pages/login/login",
@@ -64,7 +64,24 @@
 			"navigationBarTitleText": "",
 			"enablePullDownRefresh": false
 		}
-
+	}, {
+		"path": "pages/server/my/my",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/operator/deliver/deliver",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/operator/audit/audit",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -79,7 +96,7 @@
 		"current": 0,
 		"list": [{
 			"name": "login",
-			"path": "pages/server/serve/serve"
+			"path": "pages/index/index"
 		}]
 	}
 }

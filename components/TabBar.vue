@@ -7,13 +7,13 @@
 			</navigator>
 		</view>
 		<view class="list active">
-			<navigator class="navigator" :url="props.centerUrl">
+			<navigator class="navigator" open-type="reLaunch" :url="props.centerUrl">
 				<uni-icons type="vip" size="30" class="uni-icons"></uni-icons>
 				<text class="text">{{ props.centerText }}</text>
 			</navigator>
 		</view>
 		<view class="list">
-			<navigator class="navigator" :url="props.rightUrl">
+			<navigator class="navigator" open-type="reLaunch" :url="props.rightUrl">
 				<uni-icons :type="rightIcon" size="30"></uni-icons>
 				<text class="text">{{ props.rightText }}</text>
 			</navigator>

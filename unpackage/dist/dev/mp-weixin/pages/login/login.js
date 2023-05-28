@@ -24,14 +24,15 @@ const _sfc_main = {
     const protocol = common_vendor.ref([
       { text: "阅读并同意暖夕阳的《服务协议》和《个人信息保护指引》", value: 0 }
     ]);
+    const routeMap = {
+      admin: "/pages/platform/audit/audit",
+      server: "/pages/server/serve/serve",
+      operator: "/pages/operator/deliver/deliver"
+    };
     function login() {
-      if (userName.value === "admin") {
+      if (routeMap[userName.value]) {
         common_vendor.index.navigateTo({
-          url: "/pages/platform/audit/audit"
-        });
-      } else if (userName.value === "server") {
-        common_vendor.index.navigateTo({
-          url: "/pages/server/serve/serve"
+          url: routeMap[userName.value]
         });
       } else {
         common_vendor.index.navigateTo({

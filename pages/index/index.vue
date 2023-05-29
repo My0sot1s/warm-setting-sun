@@ -7,18 +7,10 @@
 		></image>
 		<image src="../../static/logo.png" mode="" class="logo"></image>
 		<view class="panel">
-			<navigator
-				url="/pages/login/login"
-				open-type="reLaunch"
-				hover-class="navigator-hover"
-			>
+			<navigator url="/pages/login/login" hover-class="navigator-hover">
 				<SunButton text="登录"></SunButton>
 			</navigator>
-			<navigator
-				url="/pages/register/register"
-				open-type="reLaunch"
-				hover-class="navigator-hover"
-			>
+			<navigator url="/pages/register/register" hover-class="navigator-hover">
 				<SunButton text="注册"></SunButton>
 			</navigator>
 		</view>

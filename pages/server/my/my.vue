@@ -49,7 +49,12 @@
 			<navigator url="/pages/index/index"><text>退出登录</text></navigator>
 		</view>
 	</view>
-	<TabBar />
+	<TabBar
+		centerText="服务"
+		rightText="我的"
+		centerUrl=""
+		rightUrl="/pages/server/my/my"
+	/>
 </template>
 
 <script></script>

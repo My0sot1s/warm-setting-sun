@@ -24,10 +24,12 @@
 				></image>
 				<text>已支付订单</text>
 			</view>
-			<view class="order-item">
-				<image src="../../static/doneOrder.png" mode=""></image>
-				<text>已完成订单</text>
-			</view>
+			<navigator url="/pages/user/done-deal/done-deal"
+				><view class="order-item">
+					<image src="../../static/doneOrder.png" mode=""></image>
+					<text>已完成订单</text>
+				</view></navigator
+			>
 		</view>
 		<view class="details">
 			<div class="detail-item">

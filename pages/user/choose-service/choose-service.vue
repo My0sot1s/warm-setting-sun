@@ -11,9 +11,24 @@
 			<text>请选择您需要的服务：</text>
 		</view>
 		<view class="buttons">
-			<SunButton text="家政服务 >" />
-			<SunButton text="陪诊服务 >" />
-			<SunButton text="心理关怀 >" />
+			<navigator
+				url="/pages/user/house-service/house-service"
+				hover-class="navigator-hover"
+			>
+				<SunButton text="家政服务 >" />
+			</navigator>
+			<navigator
+				url="/pages/user/accompany-service/accompany-service"
+				hover-class="navigator-hover"
+			>
+				<SunButton text="陪诊服务 >" />
+			</navigator>
+			<navigator
+				url="/pages/psycho-care/psycho-care"
+				hover-class="navigator-hover"
+			>
+				<SunButton text="心理关怀 >" />
+			</navigator>
 			<SunButton text="健康数据 >" />
 		</view>
 	</view>

@@ -1,0 +1,42 @@
+.box-bg {
+  font-weight: 1000;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 2vw 7vw 0vw 7vw;
+  font-size: 3vw;
+  font-weight: bolder;
+}
+.header .select {
+  border: 1px solid black;
+  width: 13vw;
+  height: 5vw;
+  border-radius: 2.5vw;
+  display: flex;
+  align-items: center;
+}
+.header .select .listIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 1vw;
+  margin-right: 0.3vw;
+}
+.header .select .listIcon .line {
+  transform: translateY(0.5vw);
+  border-top: 1px solid black;
+  width: 3vw;
+  height: 0.8vw;
+}
+.applyList {
+  padding: 5vw 0;
+  padding-bottom: 30vw;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: lighter;
+}

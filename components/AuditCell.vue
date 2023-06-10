@@ -6,8 +6,10 @@
 			<text class="ability">{{ props.cellData.ability + '  个人资料>' }}</text>
 		</view>
 		<view class="buttons">
-			<view class="buttons">
+			<view @click="notice">
 				<SunButton text="通过"></SunButton>
+			</view>
+			<view @click="notice">
 				<SunButton text="驳回"></SunButton>
 			</view>
 		</view>
@@ -18,6 +20,12 @@
 const props = defineProps({
 	cellData: Object
 })
+function notice() {
+	uni.showToast({
+		title: '操作成功！',
+		duration: 2000
+	})
+}
 console.log(props)
 </script>
 
@@ -52,9 +60,11 @@ console.log(props)
 		margin-left: auto;
 		width: 22vw;
 		view {
-			height: 4vw;
-			margin: 1vw 0;
-			border-radius: 10vw;
+			view {
+				height: 4vw;
+				margin: 1vw 0;
+				border-radius: 10vw;
+			}
 		}
 	}
 }

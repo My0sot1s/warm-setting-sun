@@ -25,8 +25,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/index/index",
-          "pathName": "pages/index/index",
+          "name": "pages/user/done-deal/done-deal",
+          "pathName": "pages/user/done-deal/done-deal",
           "query": ""
         }
       ]

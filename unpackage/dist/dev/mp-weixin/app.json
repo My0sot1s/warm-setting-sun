@@ -12,7 +12,11 @@
     "pages/server/serve/serve",
     "pages/server/my/my",
     "pages/operator/deliver/deliver",
-    "pages/operator/audit/audit"
+    "pages/operator/audit/audit",
+    "pages/user/house-service/house-service",
+    "pages/user/accompany-service/accompany-service",
+    "pages/user/psycho-care/psycho-care",
+    "pages/user/done-deal/done-deal"
   ],
   "window": {
     "navigationBarTextStyle": "black",

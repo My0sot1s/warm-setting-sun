@@ -52,7 +52,7 @@
 	<TabBar
 		centerText="服务"
 		rightText="我的"
-		centerUrl=""
+		centerUrl="/pages/server/serve/serve"
 		rightUrl="/pages/server/my/my"
 	/>
 </template>

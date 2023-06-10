@@ -15,6 +15,10 @@ if (!Math) {
   "./pages/server/my/my.js";
   "./pages/operator/deliver/deliver.js";
   "./pages/operator/audit/audit.js";
+  "./pages/user/house-service/house-service.js";
+  "./pages/user/accompany-service/accompany-service.js";
+  "./pages/user/psycho-care/psycho-care.js";
+  "./pages/user/done-deal/done-deal.js";
 }
 const _sfc_main = {
   onLaunch: function() {

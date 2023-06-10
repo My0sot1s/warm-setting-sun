@@ -1,0 +1,1 @@
+<view class="cell"><image src="{{a}}" mode=""></image><view class="detail"><view class="group"><text class="name">{{b}}</text><uni-tag wx:if="{{c}}" u-i="ee8ec018-0" bind:__l="__l" u-p="{{c}}"/></view><text class="ability">{{d}}</text></view></view>

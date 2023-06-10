@@ -11,6 +11,12 @@ const _sfc_main = {
   },
   setup(__props) {
     const props = __props;
+    function notice() {
+      common_vendor.index.showToast({
+        title: "操作成功！",
+        duration: 2e3
+      });
+    }
     console.log(props);
     return (_ctx, _cache) => {
       return {
@@ -20,9 +26,11 @@ const _sfc_main = {
         d: common_vendor.p({
           text: "通过"
         }),
-        e: common_vendor.p({
+        e: common_vendor.o(notice),
+        f: common_vendor.p({
           text: "驳回"
-        })
+        }),
+        g: common_vendor.o(notice)
       };
     };
   }

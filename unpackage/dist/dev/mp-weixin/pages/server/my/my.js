@@ -10,7 +10,7 @@ function _sfc_render(_ctx, _cache) {
     a: common_vendor.p({
       centerText: "服务",
       rightText: "我的",
-      centerUrl: "",
+      centerUrl: "/pages/server/serve/serve",
       rightUrl: "/pages/server/my/my"
     })
   };
